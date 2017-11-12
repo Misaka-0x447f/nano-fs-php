@@ -187,7 +187,7 @@ class fileOp{
         $this->fileClose();
         return $counter;
     }
-    public function getFileContentsByLineNumber($lineNumber){
+    public function getFileContentByLineNumber($lineNumber){
         //$lineNumber is 1-based
         $file = new SplFileObject($this->fileName);
         $file->seek($lineNumber - 1); // seek to line $lineNumber - 1 (0-based)
