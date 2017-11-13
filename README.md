@@ -4,6 +4,8 @@ A portable file operator for light work and/or original php
 Exported from [projectNanopoolMonitor/htmlMonitor](https://github.com/projectNanopoolMonitor/htmlMonitor)
 # Requirement
 php 5.6 or above
+
+php 7 or above is recommended
 # Deployment
 cp fileOp.php to your project
 
